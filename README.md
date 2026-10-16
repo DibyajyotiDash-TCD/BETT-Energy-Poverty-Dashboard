@@ -1,8 +1,8 @@
 # BETT Energy Poverty Dashboard
 
-An interactive **R Shiny dashboard** exploring energy poverty, financial stress, household heating behaviour and travel-related energy perceptions in Ireland using the Sustainable Energy Authority of Ireland (SEAI) **Behavioural Energy and Travel Tracker (BETT)**.
+An interactive **R Shiny dashboard** exploring energy poverty, financial stress, household heating behaviour and travel-related energy perceptions in Ireland using the Sustainable Energy Authority of Ireland (SEAI) **Behavioural Energy and Travel Tracker (BETT)** data from 2023–2025.
 
-This project was developed as part of my **MSc in Sustainability and Statistics at Trinity College Dublin**.
+This project was developed as part of my **MSc in Sustainability and Statistics at Trinity College Dublin**. The dashboard was developed to make selected statistical findings more accessible and easier to explore interactively, while the full model specifications, diagnostics and methodological discussion remain documented in the dissertation.
 
 ## Live dashboard
 
@@ -12,11 +12,11 @@ This project was developed as part of my **MSc in Sustainability and Statistics 
 
 ## Project highlights
 
-- Analyses SEAI Behavioural Energy and Travel Tracker data from 2023–2025
-- Explores energy bill difficulty, bill worry, heating behaviour and travel-related energy perceptions
-- Uses descriptive statistics and binary logistic regression
-- Includes interactive filtering by income, tenure, region, age and dwelling characteristics
-- Developed in R using Shiny, ggplot2 and dplyr
+- Interactive R Shiny dashboard using SEAI BETT data from 2023–2025
+- Examines energy bill difficulty, financial worry, heating behaviour and travel-related energy perceptions
+- Applies descriptive statistics and binary logistic regression
+- Allows exploration across income, tenure, region, age, dwelling type and urban/rural location
+- Connects statistical analysis with interactive data visualisation
 
 ## Project overview
 
@@ -72,6 +72,8 @@ BETT-Energy-Poverty-Dashboard/
 │       ├── odds_ratio_plot_bill_worry.png
 │       ├── odds_ratio_plot_heating_7days_no_season.png
 │       └── odds_ratio_plot_drive2k_clean.png
+├── screenshots/
+│   └── dashboard-preview.png
 ├── .gitignore
 └── README.md
 ```
