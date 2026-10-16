@@ -8,6 +8,8 @@ This project was developed as part of my **MSc in Sustainability and Statistics 
 
 **[Open the interactive dashboard](https://egs19j-dibyajyoti-dash.shinyapps.io/bett-energy-poverty-dashboard-v83/)**
 
+![Dashboard preview](screenshots/dashboard-preview.png)
+
 ## Project overview
 
 The project extends analysis of the BETT survey across **January 2023 to November 2025**. It combines descriptive analysis, binary logistic regression and interactive visualisation to explore how energy-related outcomes vary over time and across household characteristics.
