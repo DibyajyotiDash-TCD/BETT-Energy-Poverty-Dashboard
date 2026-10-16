@@ -10,6 +10,14 @@ This project was developed as part of my **MSc in Sustainability and Statistics 
 
 ![Dashboard preview](screenshots/dashboard-preview.png)
 
+## Project highlights
+
+- Analyses SEAI Behavioural Energy and Travel Tracker data from 2023–2025
+- Explores energy bill difficulty, bill worry, heating behaviour and travel-related energy perceptions
+- Uses descriptive statistics and binary logistic regression
+- Includes interactive filtering by income, tenure, region, age and dwelling characteristics
+- Developed in R using Shiny, ggplot2 and dplyr
+
 ## Project overview
 
 The project extends analysis of the BETT survey across **January 2023 to November 2025**. It combines descriptive analysis, binary logistic regression and interactive visualisation to explore how energy-related outcomes vary over time and across household characteristics.
